@@ -7,8 +7,8 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMainContent" runat="server">
-    <div>ahaha</div>
-    <div>hhh</div>
+    <div></div>
+    <div></div>
     <div>
         
         <table class="auto-style1">
