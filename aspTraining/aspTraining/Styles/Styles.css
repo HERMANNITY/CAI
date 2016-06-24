@@ -22,14 +22,7 @@ h1
 }
 #MainContent
 {
-    width: 664px;
-    float: left;
-}
-#Sidebar
-{
-    background-color: Gray;
-    width: 180px;
-    float: left;
+    width: 844px;
 }
 #Footer
 {
