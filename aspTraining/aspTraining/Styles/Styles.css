@@ -1,7 +1,7 @@
 ﻿#Header{
     background-color: #C0C0C0;
     width: 844px;
-    height: 86px;
+    height: 35px;
 }
 
 *
@@ -20,13 +20,6 @@ h1
 {
     width: 844px;
 }
-#MainContent
-{
+#MainContent {
     width: 844px;
-}
-#Footer
-{
-    background-color: #C0C0C0;
-    width: 844px;
-    clear: both;
 }

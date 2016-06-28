@@ -1,0 +1,14 @@
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\bin\Debug\DebugProject.exe.config
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\bin\Debug\DebugProject.exe
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\bin\Debug\DebugProject.pdb
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\obj\Debug\DebugProject.csprojResolveAssemblyReference.cache
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\obj\Debug\DebugProject.exe
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\obj\Debug\DebugProject.pdb
+C:\CAI Documents\Intern Training\ConsoleDebug\DebugProject\DebugProject\bin\Debug\StudentGrades.txt
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\bin\Debug\DebugProject.exe.config
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\obj\Debug\DebugProject.exe
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\obj\Debug\DebugProject.pdb
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\bin\Debug\StudentGrades.txt
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\bin\Debug\DebugProject.exe
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\bin\Debug\DebugProject.pdb
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\DebugProject\DebugProject\obj\Debug\DebugProject.csprojResolveAssemblyReference.cache

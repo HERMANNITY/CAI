@@ -1,0 +1,9 @@
+c:\users\liuj\documents\visual studio 2015\Projects\Database2\Database2\bin\Debug\Database2.dacpac
+c:\users\liuj\documents\visual studio 2015\Projects\Database2\Database2\obj\Debug\Database2.dll
+c:\users\liuj\documents\visual studio 2015\Projects\Database2\Database2\obj\Debug\Database2.pdb
+c:\users\liuj\documents\visual studio 2015\Projects\Database2\Database2\bin\Debug\Database2.dll
+c:\users\liuj\documents\visual studio 2015\Projects\Database2\Database2\bin\Debug\Database2.pdb
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\Database2\Database2\obj\Debug\Model.xml
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\Database2\Database2\obj\Debug\refactor.xml
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\Database2\Database2\obj\Debug\postdeploy.sql
+C:\Users\liuj\Documents\Visual Studio 2015\Projects\Database2\Database2\obj\Debug\predeploy.sql

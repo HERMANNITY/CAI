@@ -18,7 +18,6 @@
                  <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
                  </asp:ContentPlaceHolder>
             </div>
-            <div id="Footer">Footer Goes Here</div>
         </div>
     </form>
 </body>
