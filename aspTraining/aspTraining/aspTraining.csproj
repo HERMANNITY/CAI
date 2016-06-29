@@ -223,6 +223,7 @@
     <Content Include="App_Data\Database_log.ldf">
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
+    <Content Include="Assign3\CustomerAdminDetails.aspx" />
     <Content Include="Assign3\CustomersAdmin.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -406,6 +407,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Assign3\CustomerAdminDetails.aspx.cs">
+      <DependentUpon>CustomerAdminDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assign3\CustomerAdminDetails.aspx.designer.cs">
+      <DependentUpon>CustomerAdminDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Assign3\CustomersAdmin.aspx.cs">
       <DependentUpon>CustomersAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
