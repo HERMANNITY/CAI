@@ -12,7 +12,7 @@
         <asp:BoundField DataField="EmailAddress" HeaderText="EmailAddress" SortExpression="EmailAddress" />
     </Columns>
 </asp:GridView>
-    <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="125px">
+    <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="125px" OnPageIndexChanging="DetailsView1_PageIndexChanging">
         <Fields>
             
             <asp:CommandField ShowInsertButton="True" />
