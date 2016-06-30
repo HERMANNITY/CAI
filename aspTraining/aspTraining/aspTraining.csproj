@@ -225,6 +225,7 @@
     </Content>
     <Content Include="Assign3\CustomerAdminDetails.aspx" />
     <Content Include="Assign3\CustomersAdmin.aspx" />
+    <Content Include="Assign3\ProductAdminDetails.aspx" />
     <Content Include="Assign3\ProductsAdmin.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -421,6 +422,13 @@
     </Compile>
     <Compile Include="Assign3\CustomersAdmin.aspx.designer.cs">
       <DependentUpon>CustomersAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assign3\ProductAdminDetails.aspx.cs">
+      <DependentUpon>ProductAdminDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assign3\ProductAdminDetails.aspx.designer.cs">
+      <DependentUpon>ProductAdminDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Assign3\ProductsAdmin.aspx.cs">
       <DependentUpon>ProductsAdmin.aspx</DependentUpon>
