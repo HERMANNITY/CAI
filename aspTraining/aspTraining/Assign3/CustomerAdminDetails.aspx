@@ -48,17 +48,45 @@
             <asp:Parameter Name="UserID" Type="Int32" />
         </UpdateParameters>
     </asp:SqlDataSource>
-    <asp:GridView ID="GridView2" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="AddressID" DataSourceID="SqlDataSource3" PageSize="50">
+    <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="UserID" DataSourceID="SqlDataSource4" DefaultMode="Insert" Height="50px" Width="125px">
+        <Fields>
+            <asp:BoundField DataField="UserID" HeaderText="UserID" ReadOnly="True" SortExpression="UserID" />
+            <asp:BoundField DataField="UserName" HeaderText="UserName" SortExpression="UserName" />
+            <asp:BoundField DataField="EmailAddress" HeaderText="EmailAddress" SortExpression="EmailAddress" />
+            <asp:CommandField ShowInsertButton="True" />
+        </Fields>
+    </asp:DetailsView>
+    <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:DatabaseConnectionString1 %>" DeleteCommand="DELETE FROM [User1] WHERE [UserID] = @UserID" InsertCommand="INSERT INTO [User1] ([UserID], [UserName], [EmailAddress]) VALUES (@UserID, @UserName, @EmailAddress)" SelectCommand="SELECT [UserID], [UserName], [EmailAddress] FROM [User1]" UpdateCommand="UPDATE [User1] SET [UserName] = @UserName, [EmailAddress] = @EmailAddress WHERE [UserID] = @UserID">
+        <DeleteParameters>
+            <asp:Parameter Name="UserID" Type="Int32" />
+        </DeleteParameters>
+        <InsertParameters>
+            <asp:Parameter Name="UserID" Type="Int32" />
+            <asp:Parameter Name="UserName" Type="String" />
+            <asp:Parameter Name="EmailAddress" Type="String" />
+        </InsertParameters>
+        <UpdateParameters>
+            <asp:Parameter Name="UserName" Type="String" />
+            <asp:Parameter Name="EmailAddress" Type="String" />
+            <asp:Parameter Name="UserID" Type="Int32" />
+        </UpdateParameters>
+    </asp:SqlDataSource>
+    <asp:GridView ID="GridView2" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="AddressID" DataSourceID="SqlDataSource3" PageSize="50" AllowPaging="True">
         <Columns>
             <asp:BoundField DataField="AddressID" HeaderText="AddressID" ReadOnly="True" SortExpression="AddressID" />
             <asp:BoundField DataField="Address1" HeaderText="Address1" SortExpression="Address1" />
             <asp:BoundField DataField="Address2" HeaderText="Address2" SortExpression="Address2" />
             <asp:BoundField DataField="Address3" HeaderText="Address3" SortExpression="Address3" />
             <asp:BoundField DataField="City" HeaderText="City" SortExpression="City" />
+            <asp:BoundField DataField="StateID" HeaderText="StateID" SortExpression="StateID" />
             <asp:BoundField DataField="ZipCode" HeaderText="ZipCode" SortExpression="ZipCode" />
         </Columns>
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:DatabaseConnectionString1 %>" DeleteCommand="DELETE FROM [Address] WHERE [AddressID] = @AddressID" InsertCommand="INSERT INTO [Address] ([AddressID], [Address1], [Address2], [Address3], [City], [ZipCode]) VALUES (@AddressID, @Address1, @Address2, @Address3, @City, @ZipCode)" SelectCommand="SELECT [AddressID], [Address1], [Address2], [Address3], [City], [ZipCode] FROM [Address] WHERE ([UserID] = @UserID)" UpdateCommand="UPDATE [Address] SET [Address1] = @Address1, [Address2] = @Address2, [Address3] = @Address3, [City] = @City, [ZipCode] = @ZipCode WHERE [AddressID] = @AddressID">
+    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:DatabaseConnectionString1 %>" 
+        DeleteCommand="DELETE FROM [Address] WHERE [AddressID] = @AddressID" 
+        InsertCommand="INSERT INTO [Address] ([AddressID], [Address1], [Address2], [Address3], [City], [StateID], [ZipCode]) VALUES (@AddressID, @Address1, @Address2, @Address3, @City, @StateID, @ZipCode)" 
+        SelectCommand="SELECT [AddressID], [Address1], [Address2], [Address3], [City], [StateID], [ZipCode] FROM [Address] WHERE ([UserID] = @UserID)" 
+        UpdateCommand="UPDATE [Address] SET [Address1] = @Address1, [Address2] = @Address2, [Address3] = @Address3, [City] = @City, [StateID] = @StateID, [ZipCode] = @ZipCode WHERE [AddressID] = @AddressID">
         <DeleteParameters>
             <asp:Parameter Name="AddressID" Type="Int32" />
         </DeleteParameters>
@@ -68,6 +96,7 @@
             <asp:Parameter Name="Address2" Type="String" />
             <asp:Parameter Name="Address3" Type="String" />
             <asp:Parameter Name="City" Type="String" />
+            <asp:Parameter Name="StateID" Type="Int32" />
             <asp:Parameter Name="ZipCode" Type="String" />
         </InsertParameters>
         <SelectParameters>
@@ -78,6 +107,7 @@
             <asp:Parameter Name="Address2" Type="String" />
             <asp:Parameter Name="Address3" Type="String" />
             <asp:Parameter Name="City" Type="String" />
+            <asp:Parameter Name="StateID" Type="Int32" />
             <asp:Parameter Name="ZipCode" Type="String" />
             <asp:Parameter Name="AddressID" Type="Int32" />
         </UpdateParameters>
