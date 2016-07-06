@@ -13,14 +13,14 @@ namespace MVCTraining.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Search()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public new ActionResult Profile()
         {
             ViewBag.Message = "Your contact page.";
 
