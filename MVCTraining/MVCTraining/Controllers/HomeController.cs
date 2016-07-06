@@ -16,7 +16,6 @@ namespace MVCTraining.Controllers
         public ActionResult Search()
         {
             ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
