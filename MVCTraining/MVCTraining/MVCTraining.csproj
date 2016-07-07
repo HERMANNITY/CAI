@@ -275,6 +275,8 @@
     <Content Include="Views\CustomerBaseViewModels\Details.cshtml" />
     <Content Include="Views\CustomerBaseViewModels\Edit.cshtml" />
     <Content Include="Views\CustomerBaseViewModels\Index.cshtml" />
+    <Content Include="Views\CustomerBaseViewModels\Search.cshtml" />
+    <Content Include="Views\CustomerBaseViewModels\Profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
