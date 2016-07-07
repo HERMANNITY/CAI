@@ -11,6 +11,23 @@ namespace MvcTraining.Models
         [Key]
         public int UserID { get; set; }
 
-        public string UserName { get; set; }
+        [Display(Name = "First Name")]
+        public string firstName { get; set; }
+
+        [Display(Name = "Last Name")]
+        public string lastName { get; set; }
+
+        public string UserName {
+            get
+            {
+                return firstName;
+            }
+            set
+            {
+                UserName = value;
+            }
+        }
+
+        
     }
 }

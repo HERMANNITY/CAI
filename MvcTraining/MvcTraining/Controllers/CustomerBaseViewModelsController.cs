@@ -41,22 +41,12 @@ namespace MvcTraining.Controllers
             return View();
         }
 
-        public ActionResult Search()
-        {
-            return View();
-        }
-
-        public new ActionResult Profile()
-        {
-            return View();
-        }
-
         // POST: CustomerBaseViewModels/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "UserID,UserName")] CustomerBaseViewModel customerBaseViewModel)
+        public ActionResult Create([Bind(Include = "UserID,firstName,lastName,UserName")] CustomerBaseViewModel customerBaseViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +78,7 @@ namespace MvcTraining.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "UserID,UserName")] CustomerBaseViewModel customerBaseViewModel)
+        public ActionResult Edit([Bind(Include = "UserID,firstName,lastName,UserName")] CustomerBaseViewModel customerBaseViewModel)
         {
             if (ModelState.IsValid)
             {
