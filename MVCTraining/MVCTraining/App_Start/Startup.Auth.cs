@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using MVCTraining.Models;
+using MvcTraining.Models;
 
-namespace MVCTraining
+namespace MvcTraining
 {
     public partial class Startup
     {

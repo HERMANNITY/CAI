@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E9A08EEB-F8F9-458A-9E0A-F1F9F510E9C9}</ProjectGuid>
+    <ProjectGuid>{99F32546-BF92-4AC5-A0D5-0F23AEC08F7E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MVCTraining.Tests</RootNamespace>
-    <AssemblyName>MVCTraining.Tests</AssemblyName>
+    <RootNamespace>MvcTraining.Tests</RootNamespace>
+    <AssemblyName>MvcTraining.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCTraining\MVCTraining.csproj">
-      <Project>{6F97ADA0-996D-4044-A701-1EDE5F11F29D}</Project>
-      <Name>MVCTraining</Name>
+    <ProjectReference Include="..\MvcTraining\MvcTraining.csproj">
+      <Project>{019FAD28-3FF5-4034-AB52-23843514A31F}</Project>
+      <Name>MvcTraining</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

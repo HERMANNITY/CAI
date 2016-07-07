@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MVCTraining.Models;
+using MvcTraining.Models;
 
-namespace MVCTraining.Controllers
+namespace MvcTraining.Controllers
 {
     [Authorize]
     public class AccountController : Controller

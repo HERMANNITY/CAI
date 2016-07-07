@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MVCTraining.Controllers
+namespace MvcTraining.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,13 +13,14 @@ namespace MVCTraining.Controllers
             return View();
         }
 
-        public ActionResult Search()
+        public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+
             return View();
         }
 
-        public new ActionResult Profile()
+        public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 

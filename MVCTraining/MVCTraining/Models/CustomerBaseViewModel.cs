@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace MVCTraining.Models
+namespace MvcTraining.Models
 {
     public class CustomerBaseViewModel
-    {
-        public string UserName { get; set; }
-
+    {   
+        [Key]
         public int UserID { get; set; }
+
+        public string UserName { get; set; }
     }
 }

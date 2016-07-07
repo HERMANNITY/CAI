@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MVCTraining;
-using MVCTraining.Controllers;
+using MvcTraining;
+using MvcTraining.Controllers;
 
-namespace MVCTraining.Tests.Controllers
+namespace MvcTraining.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

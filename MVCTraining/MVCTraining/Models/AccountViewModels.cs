@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace MVCTraining.Models
+namespace MvcTraining.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
