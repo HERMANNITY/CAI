@@ -79,3 +79,4 @@ C:\Users\liuj\Documents\GitHub\CAI\MvcTraining\MvcTraining\bin\Microsoft.Owin.Se
 C:\Users\liuj\Documents\GitHub\CAI\MvcTraining\MvcTraining\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\liuj\Documents\GitHub\CAI\MvcTraining\MvcTraining\obj\Debug\MvcTraining.dll
 C:\Users\liuj\Documents\GitHub\CAI\MvcTraining\MvcTraining\obj\Debug\MvcTraining.pdb
+C:\Users\liuj\Documents\GitHub\CAI\MvcTraining\MvcTraining\obj\Debug\MvcTraining.csprojResolveAssemblyReference.cache
